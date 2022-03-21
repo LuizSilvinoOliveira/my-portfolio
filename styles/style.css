@@ -420,12 +420,14 @@ ul li a:hover{
     top: 258%;
     font-size: 40px;
     left: 20%;
+    visibility: hidden;
 }
 
 #next{
     top: 258%;
     font-size: 40px;
     right: 20%;
+    visibility: hidden;
 }
 
 .dots{
