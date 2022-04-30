@@ -336,10 +336,6 @@ ul li a:hover{
 
 /* MAIN - PORTFOLIO*/
 
-#portfolio{
-    padding-top: 50px;
-}
-
 .portfolio__infusion{
     background: red;
     margin-top: 0;
@@ -377,7 +373,6 @@ ul li a:hover{
     width: 100%;
     margin-bottom: 100px;
 }
-
 
 .slide{
     box-shadow: 0 0 15px #b2b2b2;
