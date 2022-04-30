@@ -416,17 +416,17 @@ ul li a:hover{
 }
 
 #back{
-    top: 258%;
+    top: 260%;
     font-size: 40px;
     left: 20%;
     visibility: hidden;
 }
 
 #next{
-    top: 258%;
+    visibility: hidden;
+    top: 260%;
     font-size: 40px;
     right: 20%;
-    visibility: hidden;
 }
 
 .dots{
