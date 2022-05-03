@@ -1,3 +1,10 @@
+@media screen and (max-width: 1800px){
+
+    .say-hello{
+        margin-top: 5%;
+    }
+}
+
 @media screen and (max-width: 1500px){
 
     .say-hello{
