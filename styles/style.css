@@ -6,7 +6,8 @@ body{
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f3ff;
+    background-color: #829dff;
+    /* cor hexagonal original #f0f3ff */
 }
 
 a{
@@ -59,11 +60,15 @@ abbr{
 /*HEADER*/
 
 .header-apresent{
-    background-color: #ecf0ff;
+    /* ORIGINAL background-color: #ecf0ff;*/
     margin: 5% 7%;
     padding-bottom: 20px;
     max-width: 100%;
-    box-shadow: 0 0 15px #ccc;
+    /*box-shadow: 0 0 15px #95acff;*/
+    box-shadow: 0 0 15px #5e7ce7;
+    /* ORIGINAL box-shadow: 0 0 15px #ccc; */
+    background-image: url(../components/images/Portfolio.png);
+    /* cor hexagonal da imagem de background #7995FE */
 }
 
 .header__nav__menu{
@@ -87,7 +92,8 @@ abbr{
 }
 
 ul li a{
-    color: #74767d;
+    /*color: #74767d;*/
+    color: #5d5e64;
     letter-spacing: 2px;
     padding: 8px;
 }
@@ -146,7 +152,10 @@ ul li a:hover{
 }
 
 .luiz{
-    color: #ff984d;
+    /* color: #ff984d; */
+    /* color: #FAA55F; */
+    color: #55e498;
+    /*color: #1885f1;*/
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -166,17 +175,18 @@ ul li a:hover{
     margin-top: 50px;
     padding: 9px 50px;
     max-width: 160px;
-    background-color: #ff984d;
+    /* ORIGINAL background-color: #ff984d; */
+    background-color: #FAA55F;
     color: white;
     font-size: 15px;
-    border: 1px solid #ff862e;
+    border: 1px solid #FAA55F;
     border-radius: 3px;
     letter-spacing: 2px;
     font-weight: 600;
 }
 
 .button-CV:hover{
-    background-color: #f78f43;
+    background-color: #fa9f55;
     cursor: pointer;
     transition: .3s;
 }
@@ -197,7 +207,8 @@ ul li a:hover{
 }
 
 .fa-linkedin:hover{
-    color: #ff8933;
+    /* color: #ff8933; */
+    color: #55e498;
     transition: .3s;
 }
 
@@ -208,7 +219,7 @@ ul li a:hover{
 }
 
 .fa-github:hover{
-    color: #ff8933;
+    color: #55e498;
     transition: .3s;
 }
 
@@ -219,7 +230,7 @@ ul li a:hover{
 }
 
 .fa-instagram:hover{
-    color: #ff8933;
+    color: #55e498;
     transition: .3s;
 }
 
@@ -256,7 +267,8 @@ ul li a:hover{
 .about-me-title{
     margin-top: 10px;
     font-size: 28px;
-    color: #8a8c94;
+    /* ORIGINAL color: #8a8c94; */
+    color: #55e498;
     letter-spacing: 1.5px;
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1px;
@@ -274,12 +286,12 @@ ul li a:hover{
 
 .button-hire-me{
     margin-top: 15px;
-    background-color: #ff984d;
+    background-color: #FAA55F;
     padding: 10px 40px;
     color: white;
     border-radius: 5px;
     font-size: 15px;
-    border: 1px solid #ff862e;
+    border: 1px solid #FAA55F;
     border-radius: 3px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -287,19 +299,23 @@ ul li a:hover{
 }
 
 .button-hire-me:hover{
-    background-color: #f78f43;
+    background-color: #fa9f55;
     cursor: pointer;
     transition: .3s;
 }
 
+/* MY SKILLS */
+
 .main__section__about-me-skills{
     text-align: center;
-    color: #6b6c70;
+    /* ORIGINAL color: #6b6c70; */
+    color: #5139AD;
     font-size: 21px;
     letter-spacing: 2px;
     line-height: 0;
-    margin-top: 10px;
+    margin-top: 100px;
     font-family: 'Source Sans Pro', Bold 700, sans-serif;
+    
 }
 
 .fa-dumbbell{
@@ -310,7 +326,8 @@ ul li a:hover{
     display: flex;
     flex-direction: column;
     float: left;
-    margin-left: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
     line-height: 0;
     color: #87898f;
     font-size: 17px;
@@ -324,7 +341,23 @@ ul li a:hover{
     display: flex;
     flex-direction: column;
     float: right;
-    margin-right: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 0;
+    color: #87898f;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', Regular 400, sans-serif;
+    text-transform: uppercase;
+}
+
+.skills-3{
+    display: flex;
+    flex-direction: column;
+    float: inline-end;
+    margin-right: 10%;
+    margin-left: 10%;
     line-height: 0;
     color: #87898f;
     font-size: 17px;
@@ -336,6 +369,10 @@ ul li a:hover{
 
 /* MAIN - PORTFOLIO*/
 
+.portfolio {
+    margin-top: 0px;
+}
+
 .portfolio__infusion{
     background: red;
     margin-top: 0;
@@ -343,7 +380,7 @@ ul li a:hover{
 }
 
 .title-portfolio{
-    margin-top: 180px;
+    margin-top: 100px;
     text-align: center;
     padding-bottom: 30px;
 }
@@ -352,7 +389,7 @@ ul li a:hover{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 28px;
     letter-spacing: 2px;
-    color: #6b6c70;
+    color: #55e498;
     line-height: 20px;
 }
 
@@ -471,7 +508,7 @@ ul li a:hover{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 28px;
     letter-spacing: 2px;
-    color: #878a8f;
+    color: #55e498;
     line-height: 0;
 }
 
@@ -496,7 +533,7 @@ ul li a:hover{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
     letter-spacing: 1px;
-    color: #878a8f;
+    color: #5139AD;
     line-height: 0;
 }
 
@@ -525,7 +562,8 @@ ul li a:hover{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
     letter-spacing: 1px;
-    color: #878a8f;
+    /* ORIGINAL color: #878a8f; */
+    color: #5139AD;
     line-height: 0;
 }
 
@@ -542,7 +580,8 @@ ul li a:hover{
 }
 
 .cv-english{
-    background-color: #e8edff;
+    /*  ORIGINAL background-color: #e8edff;*/
+    background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
     height: 185px;
@@ -566,12 +605,13 @@ ul li a:hover{
 }
 
 .cv-logic{
-    background-color: #e8edff;
+    background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
     margin-top: 10px;
     height: 185px;
-    box-shadow: 0 0 15px #ccc;
+    /* box-shadow: 0 0 15px #ccc; */
+    box-shadow: 0 0 15px #5e7ce7;
 }
 
 .cv-logic p:nth-child(2){
@@ -592,7 +632,7 @@ ul li a:hover{
 }
 
 .cv-web{
-    background-color: #e8edff;
+    background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
     margin-top: 10px;
@@ -617,7 +657,7 @@ ul li a:hover{
 }
 
 .cv-planet{
-    background-color: #e8edff;
+    background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
     height: 185px;
@@ -641,12 +681,12 @@ ul li a:hover{
 }
 
 .cv-modern-web{
-    background-color: #e8edff;
+    background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
     margin-top: 10px;
     height: 185px;
-    box-shadow: 0 0 15px #ccc;
+    box-shadow: 0 0 15px #5e7ce7;
 }
 
 .cv-modern-web p:nth-child(2){
@@ -670,11 +710,13 @@ ul li a:hover{
 
 .say-hello{
     margin: 800px auto 0;
-    background-color: #e8edff;
+    /* background-color: #e8edff; */
+    background-color: #7995FE;
     margin-top: 800px;
     text-align: center;
     padding: 40px 50px 60px;
     max-width: 1100px;
+    background-image: url(../components/images/Say-Hello.png);
 }
 
 .say-hello h4{
@@ -690,7 +732,8 @@ ul li a:hover{
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     letter-spacing: 1px;
-    color: #6e7074;
+    /* color: #6e7074; */
+    color: #5139AD;
     font-weight: 500;
 }
 
