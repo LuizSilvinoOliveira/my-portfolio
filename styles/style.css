@@ -134,8 +134,9 @@ ul li a:hover{
 }
 
 .header__apresent p{
-    font-size: 14px;
-    color: #76777c;
+    font-size: 16px;
+    /* color: #76777c; ORIGINAL */
+    color: #4d4e50;
     letter-spacing: 1px;
     font-weight: 600;
     line-height: 1px;
@@ -144,7 +145,7 @@ ul li a:hover{
 
 .header__apresent h1{
     font-size: 30px;
-    color: #7d7e84;
+    color: #4d4e50;
     letter-spacing: 1px;
     line-height: 15px;
     font-weight: 700;
@@ -186,7 +187,7 @@ ul li a:hover{
 }
 
 .button-CV:hover{
-    background-color: #fa9f55;
+    background-color: #f79b51;
     cursor: pointer;
     transition: .3s;
 }
@@ -194,16 +195,18 @@ ul li a:hover{
 .ul-icon-menu{
     padding: 0;
     margin-top: 60px;
+    margin-left: 45px;
+    margin-bottom: 50px;
 }
 
 .ul-icon-menu li{
+    font-size: 19px;
     display: inline-block;
     padding: 5px;
 }
 
 .fa-linkedin{
-    width: 100%;
-    color: #747670;
+    color: white;
 }
 
 .fa-linkedin:hover{
@@ -215,7 +218,7 @@ ul li a:hover{
 .fa-github{
     width: 100%;
     margin-left: 20px;
-    color: #747670;
+    color: white;
 }
 
 .fa-github:hover{
@@ -226,7 +229,7 @@ ul li a:hover{
 .fa-instagram{
     width: 100%;
     margin-left: 20px;
-    color: #747670;
+    color: white;
 }
 
 .fa-instagram:hover{
@@ -258,7 +261,8 @@ ul li a:hover{
 }
 
 .about-me-content p{
-    color: #808287;
+    /* ORIGINAL color: #808287; */
+    color: #4d4e50;
     font-size: 18px;
     letter-spacing: 1px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -266,7 +270,7 @@ ul li a:hover{
 
 .about-me-title{
     margin-top: 10px;
-    font-size: 28px;
+    font-size: 35px;
     /* ORIGINAL color: #8a8c94; */
     color: #55e498;
     letter-spacing: 1.5px;
@@ -299,7 +303,7 @@ ul li a:hover{
 }
 
 .button-hire-me:hover{
-    background-color: #fa9f55;
+    background-color: #f79b51;
     cursor: pointer;
     transition: .3s;
 }
@@ -310,12 +314,15 @@ ul li a:hover{
     text-align: center;
     /* ORIGINAL color: #6b6c70; */
     color: #5139AD;
-    font-size: 21px;
+    font-size: 27px;
     letter-spacing: 2px;
     line-height: 0;
     margin-top: 100px;
     font-family: 'Source Sans Pro', Bold 700, sans-serif;
-    
+    background-image: url(../components/images/skills.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
 }
 
 .fa-dumbbell{
@@ -329,7 +336,8 @@ ul li a:hover{
     margin-left: 10%;
     margin-right: 10%;
     line-height: 0;
-    color: #87898f;
+    /* ORIGINAL color: #87898f; */
+    color: #4d4e50;
     font-size: 17px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -344,7 +352,7 @@ ul li a:hover{
     margin-left: 10%;
     margin-right: 10%;
     line-height: 0;
-    color: #87898f;
+    color: #4d4e50;
     font-size: 17px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -359,7 +367,7 @@ ul li a:hover{
     margin-right: 10%;
     margin-left: 10%;
     line-height: 0;
-    color: #87898f;
+    color: #4d4e50;
     font-size: 17px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -374,7 +382,6 @@ ul li a:hover{
 }
 
 .portfolio__infusion{
-    background: red;
     margin-top: 0;
     padding-top: 0;
 }
@@ -387,7 +394,7 @@ ul li a:hover{
 
 .title-portfolio h1{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 28px;
+    font-size: 35px;
     letter-spacing: 2px;
     color: #55e498;
     line-height: 20px;
@@ -395,9 +402,9 @@ ul li a:hover{
 
 .title-portfolio p{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 1px;
-    color: #6e7074;
+    color: #646466;
     line-height: .2;
     margin-bottom: 40px;
 }
@@ -501,6 +508,7 @@ ul li a:hover{
 #resume{
     padding-top: 50px;
     height: 1300px;
+    padding-bottom: 50px;
 }
 
 .title-cv{
@@ -510,7 +518,7 @@ ul li a:hover{
 
 .title-cv h1{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 28px;
+    font-size: 35px;
     letter-spacing: 2px;
     color: #55e498;
     line-height: 0;
@@ -518,9 +526,9 @@ ul li a:hover{
 
 .title-cv p{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 1px;
-    color: #84868b;
+    color: #646466;
     margin-bottom: 0;
 }
 
@@ -535,7 +543,7 @@ ul li a:hover{
 .cv-education h3{
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 22px;
+    font-size: 26px;
     letter-spacing: 1px;
     color: #5139AD;
     line-height: 0;
@@ -547,10 +555,10 @@ ul li a:hover{
 
 .cv-education p{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 1px;
-    color: #84868b;
-    line-height: 18px;
+    color: #4d4e50;
+    line-height: 19px;
 }
 
 .cv-experience{
@@ -564,7 +572,7 @@ ul li a:hover{
 .cv-experience h3{
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 22px;
+    font-size: 26px;
     letter-spacing: 1px;
     /* ORIGINAL color: #878a8f; */
     color: #5139AD;
@@ -577,10 +585,10 @@ ul li a:hover{
 
 .cv-experience p{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 1px;
-    color: #84868b;
-    line-height: 18px;
+    color: #4d4e50;
+    line-height: 19px;
 }
 
 
@@ -589,7 +597,7 @@ ul li a:hover{
     background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
-    height: 300px;
+    height: 340px;
 }
 
 .cv-english p:nth-child(2){
@@ -601,7 +609,7 @@ ul li a:hover{
 
 .cv-english p:nth-child(1){
     font-weight: 600;
-    color: #59595c;
+    color: #436bfd;
 }
 
 .cv-english p:last-child{
@@ -615,7 +623,7 @@ ul li a:hover{
     background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 250px;
     /* box-shadow: 0 0 15px #ccc; */
     box-shadow: 0 0 15px #5e7ce7;
@@ -630,7 +638,7 @@ ul li a:hover{
 
 .cv-logic p:nth-child(1){
     font-weight: 600;
-    color: #59595c;
+    color: #436bfd;
 }
 
 .cv-logic p:last-child{
@@ -644,7 +652,7 @@ ul li a:hover{
     background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 250px;
 }
 
@@ -657,7 +665,7 @@ ul li a:hover{
 
 .cv-web p:nth-child(1){
     font-weight: 600;
-    color: #59595c;
+    color: #436bfd;
 }
 
 .cv-web p:last-child{
@@ -671,7 +679,7 @@ ul li a:hover{
     background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 250px;
 }
 
@@ -684,7 +692,7 @@ ul li a:hover{
 
 .cv-planet p:nth-child(1){
     font-weight: 600;
-    color: #59595c;
+    color: #436bfd;
 }
 
 .cv-planet p:last-child{
@@ -698,7 +706,7 @@ ul li a:hover{
     background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 250px;
     box-shadow: 0 0 15px #5e7ce7;
 }
@@ -712,7 +720,7 @@ ul li a:hover{
 
 .cv-modern-web p:nth-child(1){
     font-weight: 600;
-    color: #59595c;
+    color: #436bfd;
 }
 
 .cv-modern-web p:last-child{
@@ -726,7 +734,7 @@ ul li a:hover{
     background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
-    height: 300px;
+    height: 340px;
     box-shadow: 0 0 15px #5e7ce7;
 }
 
@@ -739,7 +747,7 @@ ul li a:hover{
 
 .cv-freela p:nth-child(1){
     font-weight: 600;
-    color: #59595c;
+    color: #436bfd;
 }
 
 .cv-freela p:last-child{
@@ -755,7 +763,7 @@ ul li a:hover{
     border-radius: 5px;
     height: 250px;
     box-shadow: 0 0 15px #5e7ce7;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .cv-cem p:nth-child(2){
@@ -767,7 +775,7 @@ ul li a:hover{
 
 .cv-cem p:nth-child(1){
     font-weight: 600;
-    color: #59595c;
+    color: #436bfd;
 }
 
 .cv-cem p:last-child{
@@ -781,7 +789,7 @@ ul li a:hover{
     background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     height: 250px;
 }
 
@@ -794,7 +802,7 @@ ul li a:hover{
 
 .cv-gym p:nth-child(1){
     font-weight: 600;
-    color: #59595c;
+    color: #436bfd;
 }
 
 .cv-gym p:last-child{
@@ -813,14 +821,16 @@ ul li a:hover{
     text-align: center;
     padding: 40px 50px 60px;
     max-width: 1100px;
-    background-image: url(../components/images/Say-Hello.png);
+    background-image: url(../components/images/Say-Hello2.png);
+    background-size: cover;
 }
 
 .say-hello h4{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
-    color: #797b80;
+    color: #646466;
+    color: white;
     font-weight: 500;
     line-height: 1px;
 }
@@ -877,6 +887,7 @@ ul li a:hover{
 .icon-address li{
     display: inline-block;
     padding: 5px;
+    font-size: 19px;
 }
 
 /* ARROW TO THE TOP*/
