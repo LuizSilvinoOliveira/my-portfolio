@@ -477,7 +477,8 @@ ul li a:hover{
 
 .dots div{
     transition: all 0.5s;
-    border: 3px solid #ff984d;
+    /* ORIGINAL border: 3px solid #ff984d; */
+    border: 3px solid #4a63be;
     padding: 6px;
     border-radius: 50%;
     margin-right: 15px;
@@ -485,11 +486,13 @@ ul li a:hover{
 }
 
 .dots div:hover{
-    background: #ff984d;
+    /* ORIGINAL background: #ff984d; */
+    background: #4a63be;
 }
 
 .imgAtual{
-    background: #ffaf75;
+    /* background: #ffaf75; */
+    background: #436bfd;
     transition: all 0.5s;
 }
 
@@ -497,6 +500,7 @@ ul li a:hover{
 
 #resume{
     padding-top: 50px;
+    height: 1300px;
 }
 
 .title-cv{
@@ -579,18 +583,20 @@ ul li a:hover{
     line-height: 18px;
 }
 
+
 .cv-english{
     /*  ORIGINAL background-color: #e8edff;*/
     background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
-    height: 185px;
+    height: 300px;
 }
 
 .cv-english p:nth-child(2){
     font-weight: 700;
     font-size: 18px;
     line-height: 1px;
+    color: #5039add0;
 }
 
 .cv-english p:nth-child(1){
@@ -604,12 +610,13 @@ ul li a:hover{
     line-height: 1px;
 }
 
+
 .cv-logic{
     background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
     margin-top: 10px;
-    height: 185px;
+    height: 250px;
     /* box-shadow: 0 0 15px #ccc; */
     box-shadow: 0 0 15px #5e7ce7;
 }
@@ -618,6 +625,7 @@ ul li a:hover{
     font-weight: 700;
     font-size: 18px;
     line-height: 1px;
+    color: #5039add0;
 }
 
 .cv-logic p:nth-child(1){
@@ -631,18 +639,20 @@ ul li a:hover{
     line-height: 1px;
 }
 
+
 .cv-web{
     background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
     margin-top: 10px;
-    height: 185px;
+    height: 250px;
 }
 
 .cv-web p:nth-child(2){
     font-weight: 700;
     font-size: 18px;
     line-height: 1px;
+    color: #5039add0;
 }
 
 .cv-web p:nth-child(1){
@@ -656,17 +666,20 @@ ul li a:hover{
     line-height: 1px;
 }
 
+
 .cv-planet{
     background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
-    height: 185px;
+    margin-top: 10px;
+    height: 250px;
 }
 
 .cv-planet p:nth-child(2){
     font-weight: 700;
     font-size: 18px;
     line-height: 1px;
+    color: #5039add0;
 }
 
 .cv-planet p:nth-child(1){
@@ -680,12 +693,13 @@ ul li a:hover{
     line-height: 1px;
 }
 
+
 .cv-modern-web{
     background-color: #7d99ff;
     padding: 0 5px;
     border-radius: 5px;
     margin-top: 10px;
-    height: 185px;
+    height: 250px;
     box-shadow: 0 0 15px #5e7ce7;
 }
 
@@ -693,6 +707,7 @@ ul li a:hover{
     font-weight: 700;
     font-size: 18px;
     line-height: 1px;
+    color: #5039add0;
 }
 
 .cv-modern-web p:nth-child(1){
@@ -701,6 +716,88 @@ ul li a:hover{
 }
 
 .cv-modern-web p:last-child{
+    font-weight: 600;
+    color: #59595c;
+    line-height: 1px;
+}
+
+
+.cv-freela{
+    background-color: #7d99ff;
+    padding: 0 5px;
+    border-radius: 5px;
+    height: 300px;
+    box-shadow: 0 0 15px #5e7ce7;
+}
+
+.cv-freela p:nth-child(2){
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1px;
+    color: #5039add0;
+}
+
+.cv-freela p:nth-child(1){
+    font-weight: 600;
+    color: #59595c;
+}
+
+.cv-freela p:last-child{
+    font-weight: 600;
+    color: #59595c;
+    line-height: 1px;
+}
+
+
+.cv-cem{
+    background-color: #7d99ff;
+    padding: 0 5px;
+    border-radius: 5px;
+    height: 250px;
+    box-shadow: 0 0 15px #5e7ce7;
+    margin-top: 10px;
+}
+
+.cv-cem p:nth-child(2){
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1px;
+    color: #5039add0;
+}
+
+.cv-cem p:nth-child(1){
+    font-weight: 600;
+    color: #59595c;
+}
+
+.cv-cem p:last-child{
+    font-weight: 600;
+    color: #59595c;
+    line-height: 1px;
+}
+
+
+.cv-gym{
+    background-color: #7d99ff;
+    padding: 0 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 250px;
+}
+
+.cv-gym p:nth-child(2){
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1px;
+    color: #5039add0;
+}
+
+.cv-gym p:nth-child(1){
+    font-weight: 600;
+    color: #59595c;
+}
+
+.cv-gym p:last-child{
     font-weight: 600;
     color: #59595c;
     line-height: 1px;
@@ -792,6 +889,10 @@ ul li a:hover{
 
 .fa-circle-chevron-up:hover{
     color: #ff9f4d;
+}
+
+.fa-up-cv {
+    visibility: hidden;
 }
 
 /* FOOTER */
