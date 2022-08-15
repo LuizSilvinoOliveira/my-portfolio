@@ -93,13 +93,14 @@ abbr{
 
 ul li a{
     /*color: #74767d;*/
-    color: #5d5e64;
+    /*color: #5d5e64; */
+    color: white;
     letter-spacing: 2px;
     padding: 8px;
 }
 
 ul li a:hover{
-    color: #ff8933;
+    color: #f1a36a;
     transition: .3s;
 }
 
@@ -236,6 +237,21 @@ ul li a:hover{
     color: #55e498;
     transition: .3s;
 }
+
+
+
+.fa-square-behance{
+    width: 100%;
+    margin-left: 20px;
+    color: white;
+}
+
+.fa-square-behance:hover{
+    color: #55e498;
+    transition: .3s;
+}
+
+
 
 .icon-hidden{
     width: 0;
@@ -419,7 +435,8 @@ ul li a:hover{
 }
 
 .slide{
-    box-shadow: 0 0 15px #b2b2b2;
+    /* box-shadow: 0 0 15px #b2b2b2; */
+    box-shadow: 0 0 25px #3e56aa;
     overflow: hidden;
     height: 600px;
     width: 700px;
