@@ -97,6 +97,7 @@ function smoothScrollTo(endX, endY, duration) {
     
 }
 
+
 // MENU MOBILE
 
 const btnMobile = document.getElementById('btn-mobile');

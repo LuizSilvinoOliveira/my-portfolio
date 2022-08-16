@@ -867,13 +867,14 @@ ul li a:hover{
     padding: 12px 40px;
     border-radius: 5px;
     border: none;
-    background-color: #6e7074;
+    /* background-color: #6e7074; */
+    background-color: #4ece89;
     color: white;
 }
 
 .just-say-hi:hover{
     cursor: pointer;
-    background-color: #75777c;
+    background-color: #4aca86;
     transition: .3s;
 }
 
